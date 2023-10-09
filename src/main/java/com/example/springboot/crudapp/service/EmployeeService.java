@@ -1,10 +1,10 @@
-package com.example.springboot.crudapp.dao;
+package com.example.springboot.crudapp.service;
 
 import com.example.springboot.crudapp.entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
 
     List<Employee> findAll();
     Employee findById(int theId);
